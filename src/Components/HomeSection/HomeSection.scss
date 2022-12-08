@@ -1,0 +1,52 @@
+@import '../../Sass/Colors.scss';
+
+.home-section{
+    // clip-path: polygon(0 0, 50% 1%, 50% 100%, 0 100%);
+    clip-path: polygon(0 0, 55% 0, 100% 100%, 37% 100%);
+    background-size: cover;
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../Assets/home-page-photo.jpg');
+    background-repeat: no-repeat;
+    opacity: .2;
+    position: relative;
+
+}
+.text-container{
+    position: absolute;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    top: 50%;
+    left: 42%;
+
+    .home-buttons{
+        height: 3rem;
+        width: 9rem;
+        background-color: $Color-Secondary;
+        border-radius: 1.75rem;
+        color: $Color-Primary-Light;
+        &:hover{
+            cursor: pointer;
+            background-color: $Color-Primary-Dark;
+            border-color: $Color-Secondary;
+            color: $Color-Secondary-Light;
+        }
+        
+    }
+    #view-projects{
+        margin-right: 1rem;
+        font-weight: bolder;
+        font-size: medium;
+    }
+    #contact-me{
+        margin-left: 1rem;
+        font-size: medium;
+        font-weight: bolder;
+    }
+}

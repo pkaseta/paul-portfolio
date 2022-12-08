@@ -1,8 +1,9 @@
+import HomeSection from "./Components/HomeSection/HomeSection";
 
 function App() {
   return (
     <div className="App">
-      Portfolio
+      <HomeSection />
     </div>
   );
 }
