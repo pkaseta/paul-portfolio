@@ -1,0 +1,16 @@
+.social-bar{
+    width: 50%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    font-size: 28pt;
+
+    a{
+        text-decoration: none;
+        color: white;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
