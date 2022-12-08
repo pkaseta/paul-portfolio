@@ -1,0 +1,34 @@
+@import '../../Sass/Colors.scss';
+
+.top-nav{
+    max-width: 120rem;
+    background-color: transparent;
+    color: $Color-Primary-Light;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .title{
+        font-size: 45px;
+        background-image: linear-gradient(45deg, $Color-Primary-Light, $Color-Secondary, $Color-Secondary-Light);
+        background-size: 100%;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        // color:linear-gradient(117deg, rgba(37,37,37,1) 7%, rgba(212,49,158,1) 42%, rgba(132,241,205,1) 82%);
+        margin-right: 30%;
+    }
+
+    .top-nav-list{
+        display: flex;
+        h3:hover{
+            text-decoration: underline;
+            cursor: pointer;
+            color: $Color-Secondary;
+        }
+        
+        h3{
+            padding: 0 1rem;
+        }
+    }
+}
+
