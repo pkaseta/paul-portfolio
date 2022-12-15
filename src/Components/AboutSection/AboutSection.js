@@ -4,7 +4,7 @@ import AboutPhoto from '../../Assets/about-me-photo.jpg'
 
 const AboutSection = () => {
   return (
-    <div className='about-section'>
+    <div id='about-section'>
         <div className='header'>About Me</div>
         <div className='feature-container'>
             <div className='image-container'>
@@ -17,7 +17,7 @@ const AboutSection = () => {
                      Etiam nulla metus, sodales sit amet ligula eget, euismod sollicitudin ipsum.
                      Etiam gravida orci ut tristique luctus. Phasellus porta ullamcorper semper.
                      Nunc ut dictum ipsum. Vivamus eu volutpat nisi. Nunc massa tellus.</div>
-                <button>See My Resume</button>
+                <button onClick={() => document.getElementById('resume-section').scrollIntoView()}>See My Resume</button>
             </div>
         </div>
     </div>

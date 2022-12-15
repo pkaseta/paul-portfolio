@@ -5,7 +5,7 @@ import './HomeSection.scss'
 const HomeSection = () => {
   return (
     <>
-    <div className='home-section' />    
+    <div id='home-section' />    
         <div className='text-container'>
             <div className='welcome-text'>Welcome to my page!</div>
             <SocialBar />

@@ -6,25 +6,28 @@
     gap: 1rem;
 
     .title{
-        color: $Color-Primary-Light;
-        font-size: 24pt;
+        color: $Color-Secondary;
+        font-size: 20pt;
+        font-weight: bold;
         
     }
     .company{
-        font-size: 14pt;
-        color: $Color-Secondary-Light;
+        font-size: 11pt;
+        color: $Color-Primary-Light;
         margin-bottom: .5rem;
+        font-style: italic;
+
         
     }
     .date-range{
-        padding: .5rem;
+        padding: .25rem;
         max-width: 8rem;
-        background-color: $Color-Secondary;
+        background-color: $Color-Secondary-Light;
         color: $Color-Primary-Light;
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        font-size: 12pt;
+        font-size: 10pt;
         font-weight: bold;
         margin-bottom: 1rem;
     }
